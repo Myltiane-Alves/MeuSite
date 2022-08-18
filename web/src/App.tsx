@@ -1,13 +1,14 @@
 import React from 'react'
 
 import './App.css'
+import Home from './pages/Home'
 
-import  { AppRoutes} from './Route/routes'
+
 
 function App() {
    return (
     <div>    
-      <AppRoutes />
+      <Home/>
     </div>
   )
 }
