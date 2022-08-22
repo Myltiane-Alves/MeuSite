@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   background-image: url("../../assets/bg-1.jpg");
   div {
-    padding-left: 1.25rem;
+    /* padding-left: 1.25rem; */
     p {
       font-size: 1rem;
     }
