@@ -47,7 +47,7 @@ export default function Skills() {
         <SwiperSlide><img src={BD} alt="Banco de dados" /></SwiperSlide>
         <SwiperSlide><img src={NS} alt="Node JS" /></SwiperSlide>
         <SwiperSlide><img src={HT} alt="HTML" /></SwiperSlide>
-        <SwiperSlide><img src={CS} alt="CSS " /> 6</SwiperSlide>
+        <SwiperSlide><img src={CS} alt="CSS " /> </SwiperSlide>
         <SwiperSlide><img src={SA} alt="Sass" /></SwiperSlide>
 
       </Swiper>

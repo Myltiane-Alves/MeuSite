@@ -2,13 +2,19 @@ import styled from "styled-components";
 
 export const Container = styled.section`
   padding: 1rem;
-
+  div {
+    h1 {
+      color: #156ac9;
+      text-align: center;
+    }
+  }
 
 
 .swiper {
   width: 100%;
   height: 100%;
 }
+
 
 .swiper-slide {
   text-align: center;
@@ -32,8 +38,10 @@ export const Container = styled.section`
 
 .swiper-slide img {
   display: block;
-  width: 100%;
+  width: 50%;
   height: 100%;
   object-fit: cover;
+  padding-bottom: 40px;
+  border-radius: 10px;
 }
 `

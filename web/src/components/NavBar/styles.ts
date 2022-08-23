@@ -91,7 +91,7 @@ export const Ul = styled.ul<INav>`
     transform: ${(props) => props.open ? 'translateX(0)' : 'translateX(100%)'};
     top: -16px;
     right: 0;
-    height: 100%;
+    height: 101vh;
     width: 180px;
     padding-top: 3.5rem;
     transition: transform 0.3s ease-in-out;
