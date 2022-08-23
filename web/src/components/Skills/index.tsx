@@ -16,6 +16,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 export default function Skills() {
   return (
     <S.Container>
+      <div>
+        <h1>Habilidades</h1>
+      </div>
       <Swiper
         slidesPerView={1}
         spaceBetween={10}
